@@ -1513,6 +1513,7 @@ class Square(_ShapeWithCenter, _ShapeWithOutline):
 
     def __init__(self, center, length_of_each_side):
         """
+          :rtype:
           :type  center:  rg.Point
           :type  length_of_each_side:  int
         """
